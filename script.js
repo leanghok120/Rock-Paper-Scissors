@@ -60,6 +60,6 @@ function userScissors() {
 
 function increaseWins() {
   totalWins += 1;
-  totalWinsElement.textContent = totalWins;
+  totalWinsElement.textContent = `Total Wins: ${totalWins}`;
   localStorage.setItem("totalWins", totalWins);
 }
